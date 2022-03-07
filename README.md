@@ -14,13 +14,7 @@ The purpose of this project is to perform data cleaning, wrangling, preprocessin
 The dataset has been sourced from the article Hotel Booking Demand Datasets, written by Nuno Antonio, Ana Almeida, and Luis Nunes for Data in Brief, Volume 22, February 2019. It contains over 100k booking information records having 32 features.
 
 ## Conclusion
-Analyzed the data and developed hotel booking cancellation models using Logistic Regression and Random Forest algorithms with about 77% and 82% accuracy respectively. Hyperpara,eter tuning was performed on Random Forest Algorithm with the below parameters, which increased the accuracy by 1.29%
-{'bootstrap': True,
- 'max_depth': 50,
- 'max_features': 3,
- 'min_samples_leaf': 3,
- 'min_samples_split': 8,
- 'n_estimators': 250}
+Analyzed the data and developed hotel booking cancellation models using Logistic Regression and Random Forest algorithms with about 77% and 82% accuracy respectively. Hyperparameter tuning was performed on Random Forest Algorithm with the these parameters: 'bootstrap': True, 'max_depth': 50, 'max_features': 3, 'min_samples_leaf': 3,  'min_samples_split': 8, 'n_estimators': 250 which increased the accuracy by 1.29%.
  
  Time series forecasting was also apploed to predict footfall of guests in future.
 
